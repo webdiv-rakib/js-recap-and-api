@@ -17,9 +17,13 @@ for (const info in information) {
 
 const keys = Object.keys(information);
 for (const key of keys) {
-    console.log(key);
+    // console.log(key);
 }
 const values = Object.values(information);
 for (const value of values) {
-    console.log(value);
+    // console.log(value);
 }
+
+const numbers1 = [45, 12, 36, 84];
+numbers1.push(25);
+console.log(numbers1);
